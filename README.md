@@ -12,8 +12,6 @@ This project implements a Geometric Brownian model to simulate stock prices and 
 ```bash
 git clone https://github.com/thdnder/gbm_option_pricing.git
 cd gbm_option_pricing
-conda create -n gbm_env python=3.13
-conda activate gbm_env
-pip install -r requirements.txt
+pip install numpy norm matplotlib.pyplot
 
 
